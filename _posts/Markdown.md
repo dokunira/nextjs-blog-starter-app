@@ -1,13 +1,13 @@
 ---
 title: "Markdownの書き方"
 excerpt: "Markdown"
-coverImage: "/assets/blog/preview/cover.jpg"
+coverImage: "/assets/blog/markdown/cover.png"
 date: "2025-05-04T16:15:00+09:00"
 author:
   name: "dokunira"
   picture: "/assets/blog/authors/dokunira.jpeg"
 ogImage:
-  url: "/assets/blog/preview/cover.jpg"
+  url: "/assets/blog/markdown/cover.png"
 ---
 
 # Markdown
@@ -172,19 +172,19 @@ This will ~~~not~~~ strike.
 画像を表示するには、感嘆符!の次に角括弧[]で代替テキスト囲み、インラインリンクの場合は画像のURLを丸括弧()で囲む。
 
 ```
-![markdown-mark](./markdown-mark.png)
+![markdown-mark](/assets/blog/markdown/markdown-mark.png)
 
 ![markdown-mark-solid][]
 
 
-[markdown-mark-solid]: ./markdown-mark-solid.png
+[markdown-mark-solid]: /assets/blog/markdown/markdown-mark-solid.png
 ```
-![markdown-mark](./markdown-mark.png)
+![markdown-mark](/assets/blog/markdown/markdown-mark.png)
 
 ![markdown-mark-solid][]
 
 
-[markdown-mark-solid]: ./markdown-mark-solid.png
+[markdown-mark-solid]: /assets/blog/markdown/markdown-mark-solid.png
 
 ### コード (Code)
 インラインコードを作成するには、バッククォートで囲む。
